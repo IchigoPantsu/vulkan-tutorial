@@ -1,2 +1,2 @@
-add_executable(Tutorial04 Source.cpp)
-target_link_libraries(Tutorial04 ${LIBS})
+add_executable(04_logical_device ./04_logical_device.cpp)
+target_link_libraries(04_logical_device ${LIBS})

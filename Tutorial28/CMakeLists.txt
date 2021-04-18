@@ -1,2 +1,5 @@
-add_executable(Tutorial28 Source.cpp)
-target_link_libraries(Tutorial28 ${LIBS})
+add_executable(28_mipmapping ./28_mipmapping.cpp)
+target_link_libraries(28_mipmapping ${LIBS})
+file(COPY ../resource/shaders/26_shader_depth/shaders DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ../resource/textures/27_model_loading/textures DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ../resource/models/27_model_loading/models DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

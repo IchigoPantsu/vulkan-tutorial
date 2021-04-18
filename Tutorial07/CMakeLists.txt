@@ -1,2 +1,2 @@
-add_executable(Tutorial07 Source.cpp)
-target_link_libraries(Tutorial07 ${LIBS})
+add_executable(07_image_views ./07_image_views.cpp)
+target_link_libraries(07_image_views ${LIBS})

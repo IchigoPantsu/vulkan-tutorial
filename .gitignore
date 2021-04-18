@@ -293,3 +293,11 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+#ccls
+.ccls-cache
+3rd_party/stb/
+3rd_party/tinyobjloader/
+compile_commands.json
+
+

@@ -1,2 +1,2 @@
-add_executable(Tutorial01 Source.cpp)
-target_link_libraries(Tutorial01 ${LIBS})
+add_executable(01_instance_creation ./01_instance_creation.cpp)
+target_link_libraries(01_instance_creation ${LIBS})

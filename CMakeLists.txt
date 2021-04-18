@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(vulkan_tutorial)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 # Config vulkan
 if (WIN32)
@@ -42,12 +42,14 @@ list(APPEND LIBS glfw)
 include_directories(3rd_party/glm)
 
 # Config vulkan header
-include_directories(3rd_party/vulkan-header)
+#include_directories(3rd_party/vulkan-header)
 
 # Config stb_image & tinyobjloader
-include_directories(3rd_party/others)
+include_directories(3rd_party/stb)
+include_directories(3rd_party/tinyobjloader)
 
 # Demos
+add_subdirectory(Tutorial00)
 add_subdirectory(Tutorial01)
 add_subdirectory(Tutorial02)
 add_subdirectory(Tutorial03)

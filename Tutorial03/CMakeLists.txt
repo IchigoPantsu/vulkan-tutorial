@@ -1,2 +1,2 @@
-add_executable(Tutorial03 Source.cpp)
-target_link_libraries(Tutorial03 ${LIBS})
+add_executable(03_physical_device_selection ./03_physical_device_selection.cpp)
+target_link_libraries(03_physical_device_selection ${LIBS})

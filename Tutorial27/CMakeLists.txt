@@ -1,2 +1,5 @@
-add_executable(Tutorial27 Source.cpp)
-target_link_libraries(Tutorial27 ${LIBS})
+add_executable(27_model_loading ./27_model_loading.cpp)
+target_link_libraries(27_model_loading ${LIBS})
+file(COPY ../resource/shaders/26_shader_depth/shaders DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ../resource/textures/27_model_loading/textures DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ../resource/models/27_model_loading/models DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
