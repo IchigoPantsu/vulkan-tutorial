@@ -57,6 +57,7 @@ artifacts/
 *.ilk
 *.meta
 *.obj
+!/resource/models/27_model_loading/models/viking_room.obj
 *.pch
 *.pdb
 *.pgc
@@ -296,8 +297,6 @@ __pycache__/
 
 #ccls
 .ccls-cache
-3rd_party/stb/
-3rd_party/tinyobjloader/
 compile_commands.json
 
 
